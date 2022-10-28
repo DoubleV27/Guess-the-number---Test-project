@@ -30,9 +30,9 @@ while stay_in_game==True:
 
     while True:    
         stay=input('Would you like to play again? (y/n)')
-        if stay=='y':
+        if stay.lower()=='y':
             break
-        elif stay=='n':
+        elif stay.lower()=='n':
             print('GAME OVER!')
             stay_in_game=False
             break
